@@ -7,6 +7,7 @@
 
 package login;
 
+/* Import required packages for application */
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
@@ -24,7 +25,6 @@ import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
-import jdk.nashorn.internal.ir.*;
 
 public class Login extends Application {
   public static void main(String[] args) {
@@ -73,7 +73,7 @@ public class Login extends Application {
       @Override
       public void handle(ActionEvent e) {
         actiontarget.setFill(Color.GREEN);
-        actiontarget.setText("Sign in button pressed");
+        actiontarget.setText("Sign in button pressed!");
       }
     });
 
