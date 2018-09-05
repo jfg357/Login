@@ -5,8 +5,6 @@
     In this tutorial, you will use JavaFX to build the login form
 */
 
-package login;
-
 /* Import required packages for application */
 import javafx.application.Application;
 import javafx.event.ActionEvent;
