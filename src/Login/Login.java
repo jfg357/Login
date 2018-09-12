@@ -1,4 +1,4 @@
-/* 2 Creating a Form in JavaFX
+package Login;/* 2 Creating a Form in JavaFX
     Creating a form is a common activity when developing an application.
     This tutorial teaches you the basics of screen layout, how to add controls to a layout pane,
     and how to create input events.
