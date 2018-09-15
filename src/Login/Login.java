@@ -1,10 +1,4 @@
 package login;
-/* 2 Creating a Form in JavaFX
-    Creating a form is a common activity when developing an application.
-    This tutorial teaches you the basics of screen layout, how to add controls to a layout pane,
-    and how to create input events.
-    In this tutorial, you will use JavaFX to build the login form
-*/
 
 /* Import required packages for application */
 import javafx.application.Application;
@@ -78,6 +72,8 @@ public class Login extends Application {
 
     Scene scene = new Scene(grid, 300, 275);
     primaryStage.setScene(scene);
+    scene.getStylesheets().add
+      (Login.class.getResource("Login.css").toExternalForm());
     primaryStage.show(); // Display the scene composed above
   }
 }
