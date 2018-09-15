@@ -37,7 +37,8 @@ public class Login extends Application {
 
     /* Scene Title settings */
     Text scenetitle = new Text("Welcome"); // Set scene title
-    scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20)); // Make it pretty
+    scenetitle.setId("welcome-text");
+//    scenetitle.setFont(Font.font("Tahoma", FontWeight.NORMAL, 20)); // CSS
     grid.add(scenetitle, 0, 0, 2, 1); // Position of title
 
     /* Labels and Text fields */
@@ -65,7 +66,8 @@ public class Login extends Application {
     btn.setOnAction(new EventHandler<ActionEvent>() { // Event handler for sign in button
       @Override
       public void handle(ActionEvent e) {
-        actiontarget.setFill(Color.GREEN);
+//        actiontarget.setFill(Color.GREEN); //CSS
+        actiontarget.setId("actiontarget");
         actiontarget.setText("Sign in button pressed!");
       }
     });
