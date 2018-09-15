@@ -1,4 +1,4 @@
-package login;
+package loginx;
 
 public class Controller {
 }

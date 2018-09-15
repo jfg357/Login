@@ -1,4 +1,4 @@
-package login;
+package loginx;
 
 /* Import required packages for application */
 import javafx.application.Application;
